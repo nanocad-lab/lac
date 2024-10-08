@@ -1,0 +1,15 @@
+axbench_data/
+data/
+image_outputs/
+cifar_data/
+build/
+perf_NAS_bitshift/*.out
+__pycache__
+*/__pycache__
+.ipynb_checkpoints
+*/.ipynb_checkpoints
+.vscode
+mult_approx.egg-info
+dist
+images/cameraman.tif
+multi/temp
