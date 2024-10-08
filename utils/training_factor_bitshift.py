@@ -80,13 +80,13 @@ from scipy.linalg import dft
 from PIL import Image
 
 # Read the image
-image_preview = Image.open('../images/cameraman.tif')
+image_preview = None #Image.open('../images/cameraman.tif')
 
 # Define a transform to convert the image to tensor
 transform = transforms.ToTensor()
 
 # Convert the image to PyTorch tensor
-tensor_preview = transform(image_preview)*255.
+tensor_preview = None #transform(image_preview)*255.
 
 
 trainset = torchvision.datasets.CIFAR10(root='../cifar_data', train=True, download=True, transform=transforms.ToTensor())     
